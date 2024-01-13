@@ -1,0 +1,77 @@
+/* Style for h1 elements */
+h1 {
+  font-size: 100px;
+}
+
+/* Style for the updatedDateTime element */
+#updatedDateTime {
+  background: #168862;
+  color: white;
+  padding: 20px;
+  width: 35%;
+  margin: auto;
+  border-radius: 25px;
+}
+
+/* General styling for the body */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the header section */
+header {
+  background-color: #ffffff;
+  color: #4e586d;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Styling for the main content section */
+main {
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* Styling for time blocks */
+.time-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Styling for past time blocks */
+.past {
+  background-color: #d3d3d3;
+}
+
+/* Styling for present time blocks */
+.present {
+  background-color: #ff6961;
+}
+
+/* Styling for future time blocks */
+.future {
+  background-color: #77dd77;
+}
+
+/* Styling for the timeDisplay class within time blocks */
+.timeDisplay {
+  /* You can add specific styles here if needed */
+}
+
+/* Styling for textarea within time blocks */
+textarea {
+  width: 70%;
+  padding: 5px;
+}
+
+/* Styling for buttons */
+button {
+  cursor: pointer;
+  font-size: 20px;
+}
