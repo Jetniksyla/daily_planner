@@ -11,7 +11,7 @@ function updateDateTime() {
     timeStyle: "long",
     timeZone: "America/New_York",
   }).format(date);
-  
+
   // Update the text content of the date element in the header
   updatedDateTimeElement.textContent = formattedDateTime;
 }
@@ -24,7 +24,7 @@ setInterval(updateDateTime, 1000);
 
 // Function to update time blocks dynamically
 function updateTimeBlocks() {
-  // Loop through hours from 9 to 17 (5 PM)
+  // Loop through hours from 9 to 22 (10 PM)
   for (let hour = 9; hour <= 17; hour++) {
     // Create a new section element for each time block
     const timeBlock = document.createElement("section");
@@ -45,12 +45,13 @@ function updateTimeBlocks() {
     
     // Create HTML content for the time block
     let formattedHour = hour < 10 ? "0" + hour : hour;
+    const storedEventText = localStorage.getItem(`event-${formattedHour}`);
     timeBlock.innerHTML = `
       <section class="timeDisplay">${formattedHour}:00</section>
-      <textarea id="event-${formattedHour}"></textarea>
+      <input id="event-${formattedHour}" value="${storedEventText || ''}">
+      </input>
       <button class="save-button">Save</button>
     `;
-    
     // Append the time block to the "timeBlocks" section
     timeBlocks.appendChild(timeBlock);
   }
