@@ -7,8 +7,11 @@ The Daily Planner is a web application that helps users manage their daily sched
 ## Features
 
 - **Dynamic Time Blocks:** Time blocks are generated dynamically for each hour from 9 AM to 5 PM.
+
 - **Real-time Date and Time:** The header displays the current date and time, updating in real-time.
+
 - **Past, Present, and Future Styling:** Time blocks are styled differently based on whether they are in the past, present, or future.
+
 - **Save Events:** Users can save events for each hour, and the data is stored locally.
 
 ## Technologies Used
@@ -17,7 +20,13 @@ The Daily Planner is a web application that helps users manage their daily sched
 - CSS
 - JavaScript
 
+### Daily Planner 
+
+Click ["Start"](https://jetniksyla.github.io/daily_planner/) to organize your daily schedule with a dynamic and interactive interface that helps you plan tasks throughout the day. 
+
 ## Project Screenshot
+![!\[Daily Planner\]()](assets/Daily_Planner_sc.png)
+
 
 
   
