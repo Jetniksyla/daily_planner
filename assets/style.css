@@ -7,6 +7,12 @@ h1 {
   padding: 30px;
 }
 
+main {
+  border-radius: 25px;
+  margin: 40px;
+  border: 2px solid #1b1baf
+}
+
 /* Style for the updatedDateTime element */
 #updatedDateTime {
   background: #168862;
@@ -116,9 +122,13 @@ Button:active {
     font-size: 30px;
   }
 
+  main {
+    margin: 15px;
+  }
+
   /* Adjust width to 70% for #updatedDateTime element */
 
-  #updatedDateTime {
+  #datedDateTimeup {
     width: 50%;
     font-size: 17px;
   }
@@ -126,15 +136,6 @@ Button:active {
   /* Styles for input elements */
   input {
     height: 50px;
-  }
-
-  /* Styles for elements with class .past, .present, .future */
-  .past,
-  .present,
-  .future {
-    border-radius: 10px;
-    padding: 20px;
-    /* width: 90%; */
   }
 
   /* Styles for elements with class .updatedDateTime */
@@ -149,13 +150,13 @@ Button:active {
   /* Styles for elements with class .timeDisplay */
   .timeDisplay {
     padding: 10px;
-    font-size: x-large;
+    font-size: 17px;
   }
 
   /* Styles for elements with class .save-button */
   .save-button {
     margin: 10px;
     padding: 7px 15px;
-    font-size: initial;
+    font-size: 17px;
   }
 }
