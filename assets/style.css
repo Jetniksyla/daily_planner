@@ -108,10 +108,16 @@ Button:active {
 }
 
 /* Media query for screens up to 500px and up to 748px wide */
-@media only screen and (max-width: 500px), (max-width: 748px) {
+@media only screen and (max-width: 448px), (max-width: 748px) {
   /* Styles for h1 element */
   h1 {
     font-size: 30px;
+  }
+
+  /* Adjust width to 70% for #updatedDateTime element */
+
+  #updatedDateTime {
+    width: 70%;
   }
 
   /* Styles for input elements */
